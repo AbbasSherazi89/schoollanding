@@ -1,0 +1,30 @@
+.container-main {
+  padding: 1rem 4rem;
+}
+.container-main .logo img {
+  height: 30px;
+  width: 100px;
+}
+.container-main .nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-main .nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 545px;
+}
+.container-main .nav-list .home {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+.container-main .nav-list .others {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 0.5;
+}/*# sourceMappingURL=style.css.map */

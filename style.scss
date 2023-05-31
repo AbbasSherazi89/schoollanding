@@ -1,0 +1,33 @@
+.container-main {
+  padding: 1rem 4rem;
+
+  .logo {
+    img {
+      height: 30px;
+      width: 100px;
+    }
+  }
+  .nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    width: 545px;    
+    .home {
+      font-family: "Muli";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+    }
+    .others {
+      font-family: "Muli";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      opacity: 0.5;
+    }
+  }
+}
